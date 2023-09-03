@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="SCRIP.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free code JS.</title>
+</head>
+<body>
+<div id="parent-blk">
+   <div>
+    <fieldset style="border: 4px black solid; width: 50%;">
+        <legend style="font-weight: 800; font-size: xx-large;"> Subway counter </legend>
+         <div>
+            <div id="Pc1">
+                <p id="PC">people counter :</p>
+                 <div id="Num">
+                    <p>0</p>     
+                 </div>
+            </div>
+        
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <button id="increment-btn" onclick="decrement()">DECREMENT</button>
+            <button id="save-btn" onclick="save()">SAVE</button>
+            
+            <p id="save-el">Previous entries:  </p>
+            
+         </div>
+        </fieldset>
+   </div>
+
+   <div id="Blackjk-el">
+     <h1>Black jack game !</h1>
+     <h2 style="color: white;" id="message-el">Want to play a round?</h2>
+     <h2 style="color: white; padding-left: 80px;" id="card-el">cards:</h2>
+     <h2 style="color: white; padding-left: 80px;" id="sum-el">Sum:</h2>
+     <button id="strt-el" onclick="startGame()">Start</button>
+     <br>
+     <button id="card-btn" onclick="newcard()">New Card</button>
+     <div id="Player-el">
+        <p id="Name-el"></p>
+      </div>
+   </div>
+
+  
+
+</div>
+
+<div id="Blck-2">
+    <div>
+        <fieldset style="border: 4px black solid; width: 50% ; height: 600px;">
+            <legend style="font-weight: 800; font-size: xx-large;">Calculator</legend>
+           
+               <div id="block-el">
+                   <div id="Num-el">
+                    <p style="text-decoration: underline;" id="Num1">8</p>
+                    <p style="text-decoration: underline;" id="Num2">2</p>
+                   </div>
+               </div>
+           
+               <div id="btn-block">
+                 <button id="Calci-btn" onclick="add()">Addition</button>
+                 <button id="Calci-btn" onclick="Multi()">Multiply</button>
+                 <button id="Calci-btn" onclick="Sub()">Subtraction</button>
+                 <button id="Calci-btn" onclick="divide()">Division</button>
+               </div>
+               
+               <div id="text-el" style="text-decoration: underline; font-weight: 800; font-size:xx-large ;">
+                   <p>Sum:</p>
+               </div>
+           </fieldset>
+    </div>
+
+    <div id="Chrom-blck" style="display: flex; margin-left: 70px; margin-top: 70px;">
+         
+    </div>
+
+</div>
+
+<script src="SCRIP.js"></script>
+</body>
+</html>

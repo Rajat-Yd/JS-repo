@@ -1,0 +1,187 @@
+#parent-blk{
+    display: flex;
+}
+#Pc1{
+    border: 2px solid black;
+    height: 100px;
+    width: 150px;
+    font-weight: 600;
+    font-size: x-large;
+    padding: 50px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    margin-left: 115px;
+    align-items: center;
+} 
+
+#Pc1:hover{
+    border: transparent;
+    background-color: tomato;
+    color: white;
+}
+
+#Num{
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#increment-btn{
+    border: 1px solid black;
+    background-color: rgb(206, 30, 30);
+    padding:7px;
+    font-weight: 500;
+    margin: 35px;
+    margin-left: 40px;
+}
+
+#increment-btn:hover{
+    color: white;
+    background-color: rgb(7, 58, 58);
+    font-weight: 700;
+}
+
+
+#save-btn{
+    border: 2px solid black;
+    background-color: greenyellow;
+    padding: 7px;
+    margin-left: 40px;
+    width:90px;
+    color: black;
+}
+
+#save-btn:hover{
+    background-color: darkgreen;
+    color: white;
+    font-weight: 500;
+    border: transparent;
+    font-weight: 700;
+}
+
+#save-el{
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 40px;
+    border: 3px solid black ;
+    padding: 5px;
+    width: 250px;
+    display: flex ;
+    flex-wrap:wrap;
+}
+
+#save-el:hover{
+    border: transparent;
+    background-color: rgba(5, 170, 170, 0.941);
+}
+
+/* //Blackjack */
+
+#Blackjk-el{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex; 
+    flex-direction: column;
+    padding-left: 100px;
+    border: 4px black solid ;
+    width: 600px;
+    height: 450px;
+    margin: 15px;
+    background-color:#016f32;
+    color: orange;
+}
+
+#strt-el{
+    background-color: rgba(245, 162, 9, 0.887);
+    border: 2px black solid;
+    margin-left:10px;
+    padding: 6px;
+    width: 200px;
+    height: 45px;
+    color: #016f32;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#strt-el:hover{
+    background-color: orange;
+    border: transparent;
+}
+
+#card-btn{
+    background-color: rgba(245, 162, 9, 0.887);
+    border: 2px black solid;
+    margin-left:10px;
+    padding: 6px;
+    width: 200px;
+    height: 45px;
+    color: #016f32;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#card-btn:hover{
+    background-color: orange;
+    border: transparent; 
+}
+
+#Player-el{
+    display: inline;
+    margin-top: 10px;
+    margin-left: 310px;
+}
+
+#Name-el{
+    color: white;
+    display: inline;
+    font-weight: 700;
+    font-size: x-large;
+    background-color:#016f32;
+    padding-top: 4px;
+    margin: 20px;
+}
+
+#block-el{
+   border: 4px black solid;
+   margin: 40px 40px 40px 23%;
+   width: 50%;
+   height: 50%;
+}
+
+#Num-el{
+    display:flex;
+    align-items: flex-end;
+    margin-left: 10%;
+    justify-content: space-evenly;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+#btn-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Calci-btn{
+    background-color: lightgray;
+    font-weight: 700;
+    font-size: x-large;
+    border: 2px black solid;
+}
+
+#Calci-btn:hover{
+    background-color: lightgrey;
+    border: transparent;
+}
+
+#text-el{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 250px;
+}
+
+#Blck-2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
